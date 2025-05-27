@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+
+        header {
+            background-color: grey;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        article {
+            margin-bottom: 20px;
+            display: flex;
+        }
+
+        section {
+            flex: 30%;
+            padding: 10px;
+            background-color: #f9f9f9;
+        }
+        main {
+            flex: 70%;
+            padding: 10px;
+            background-color: #ffffff;
+            border-left: 1px solid #ddd;
+        }
+        nav {
+            justify-content: start;
+            align-items: center;
+            display: flex;
+            margin: 20px;
+            padding: 30px;
+            flex-direction: column;
+        }
+
+        nav a {
+            margin: 10px;
+            text-decoration: none;
+            color: #333;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #f1f1f1;
+        }
+        @media (max-width: 400px) {
+            article {
+                flex-direction: column;
+            }
+            section {
+                width: 100%;
+            }
+            nav {
+                flex-direction: row;
+                width: 100%;
+                margin-bottom: 10px;
+            }
+            main {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Desenvolvimento de Software WEB</h1>
+    </header>
+    <article>
+        <section>
+            <nav>
+                <a href="#" >Link 1</a>
+                <a href="#" >Link 2</a>
+                <a href="#" >Link 3</a>
+                <a href="#" >Link 4</a>
+            </nav>
+        </section>
+        <main>
+            <h2>Introdução ao html</h2>
+            <p>Ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+           
+            <img src="#" alt="imagem" >
+            <p>Ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <img src="#" alt="imagem" >
+        </main>
+    </article>
+    <footer>
+        <p> fulanodetal@ufc.com </p>
+        <p> 2025.1 </p>
+        <p> Todos os direitos reservados </p>
+
+    </footer>
+</body>
+</html>
